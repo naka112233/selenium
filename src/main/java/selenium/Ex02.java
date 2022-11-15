@@ -17,10 +17,10 @@ public class Ex02 {
 		driver.get("http://rakuplus.jp/");
 		Thread.sleep(1000);
 		//メールアドレス
-		driver.findElement(By.xpath("//*[@id=\"user_login\"]")).sendKeys("misuzu.nakamura@rakus-partners.co.jp");
+		driver.findElement(By.xpath("//*[@id=\"user_login\"]")).sendKeys("");
 		Thread.sleep(1000);
 		//パスワード
-		driver.findElement(By.xpath("//*[@id=\"user_pass\"]")).sendKeys("kktt12450N");
+		driver.findElement(By.xpath("//*[@id=\"user_pass\"]")).sendKeys("");
 		//チェックボックス
 		driver.findElement(By.cssSelector("#loginform > p.forgetmenot > label")).click();
 		Thread.sleep(1000);
